@@ -13,15 +13,15 @@
  * 624 Maximum Distance in Arrays
 
 # Greedy
- * 55. Jump Game
- * 316. Remove Duplicate Letters
+ * 55 Jump Game
+ * 316 Remove Duplicate Letters
 
 # Linked List
- * 24. Swap Nodes in pair
- * 21. Merge two Sorted Lists
+ * 24 Swap Nodes in pair
+ * 21 Merge two Sorted Lists
 
 # Tree
- * 124. Binary Tree Max path sum
+ * 124 Binary Tree Max path sum
  * 110 balanced binary tree
  * 112 path sum
  * 102 binary tree level order traversal
@@ -37,7 +37,7 @@
  * 88 merge sorted array
  * 680 valid palindrom II
  * 151 reverse words in a string
- * 1. two sum
+ * 1 two sum
  * 75 Sort colors
 
 # Hash table
@@ -51,19 +51,19 @@
  * 240 search a 2D matrix II
 
 # Math | Bitmap
- * 7. reverse integer
- * 136. Single number
+ * 7 reverse integer
+ * 136 Single number
 
 # Stack
- * 84. largest rectangle in histogram
- * 166. fraction to recurring decimal
- * 32. longest valid parentheses
+ * 84 largest rectangle in histogram
+ * 166 fraction to recurring decimal
+ * 32 longest valid parentheses
 
 # Topological Sort
- * 269. Alien Dictionary
+ * 269 Alien Dictionary
 
 # High Frequence
- * 215. Kth largest element in an Array
+ * 215 Kth largest element in an Array
  * 206 Reverse Linked list
  * 146 LRU cache
  * 46 permutations
@@ -87,7 +87,7 @@
 # DP
 	* 198 House robber
 	* 118 Pascal's triangle
-	* 70. climbing stairs
+	* 70 climbing stairs
 	* 120 triangle
 	* 300 longest increasing subsequence
 	* 338 counting bits
