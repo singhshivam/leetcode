@@ -10,3 +10,4 @@
  * 217 Contains Duplicate 41.1% Easy
  * 284 Peeking Iterator 33.5% Medium
  * 297 Serialize and Deserialize Binary Tree 27.8% Hard
+ * 624 Maximum Distance in Arrays
