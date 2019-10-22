@@ -1,16 +1,30 @@
 # https://leetcode.com/problems/two-sum/
 
-=begin
-Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.
-=end
 
+# O(n)
 def two_sum(nums, target)
+	res = []
+	hash = {}
 	nums.each_with_index { |num, i|
-		nums[i+1..-1].each_with_index { |n2, i2|
-			if (num + n2 == target)
-				return [i, i+i2+1]
-			end
+		missing = target - num
+		if hash[missing]
+			res << i << hash[missing]
+		else
+			hash[num] = i
+		end
+	}
+	res
+end
+
+# O(n2)
+def two_sum(nums, target)
+	sum = []
+	nums.each_with_index { |num1, i|
+		nums.each_with_index { |num2, j|
+			next if i == j
+
+			sum << i << j if num1 + num2 == target
 		}
 	}
+	sum.uniq
 end
