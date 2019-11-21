@@ -122,3 +122,16 @@ Heap
 - Top K Frequent Elements - [https://leetcode.com/problems/top-k-frequent-elements/](https://leetcode.com/problems/top-k-frequent-elements/)  
 - Find Median from Data Stream - [https://leetcode.com/problems/find-median-from-data-stream/](https://leetcode.com/problems/find-median-from-data-stream/)
 
+---
+
+Sliding Window
+
+- 76. Minimum Window Substring
+- 1004. Max Consecutive Ones III
+- 523. Continuous Subarray Sum
+- 198. House Robber
+- 42. Trapping Rain Water
+- 287. Find the Duplicate Number
+
+
+
