@@ -1,17 +1,18 @@
 # Facebook FEE Intern
-*  Given 2 identical DOM trees (but not equal) and one element of the first DOM tree, how would you find this element in the second DOM tree?  
-*  Write an array flatten function.  
+*  Given 2 identical DOM trees (but not equal) and one element of the first DOM tree, how would you find this element in the second DOM tree?
+*  Write an array flatten function.
 *  Write an emitter class:
-*  Can you write a function that deeply flattens an array?  
-*  Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B.  
-*  Explain the concept of ES6 Promises to a 5-year-old.  
-*  What are the advantages of using ES6 maps over objects? What about using ES6 sets over arrays?  
+*  Can you write a function that deeply flattens an array?
+*  Given two identical DOM tree structures, A and B, and a node from A, find the corresponding node in B.
+*  Explain the concept of ES6 Promises to a 5-year-old.
+*  What are the advantages of using ES6 maps over objects? What about using ES6 sets over arrays?
 *  design/code a poll widget
-
 *  Given a grid of characters output a decoded message. The message for the following would be IROCKA. (diagonally down right and diagonally up right if you can't go further .. you continue doing this)
+```
 I B C A L K A
 D R F C A E A
 G H O E L A D
+```
 
 *  you should know event bubbling, debounce (its variant)... know how to code it 
 *  Poll Widget question (just know your positioning, relative, static etc know the differences inside out). 
