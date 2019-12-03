@@ -1,0 +1,19 @@
+<html>
+	<body>
+		<div id="grand-parent" style="margin:20px;border-style:solid;border-color:green">
+			<div id="parent" style="margin:20px;border-style:solid;border-color:blue">
+				<div id="child" style="height:100px;width:500px;border-style:solid;border-color:red;margin:20px">
+					<p>Hola</p>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		let child = document.getElementById("child")
+		child.addEventListener("click", () => {console.log("child clicked!")}, true)
+		let aparent = document.getElementById("parent")
+		aparent.addEventListener("click", () => {console.log("parent clicked!")}, true)
+		let grandparent = document.getElementById("grand-parent")
+		grandparent.addEventListener("click", () => {console.log("grand-parent clicked!")}, true)
+	</script>
+</html>
