@@ -18,9 +18,10 @@ In case of an autocomplete input box:
 # When to use what?
 Using one over the other largely depends on situations at hand. Here are a few good use cases of both:
 ## Debouncing
-	-	Autocomplete: users genreally take pause between words and are more focused on keystrokes while typing. Debouncing makes more sense here.
+Autocomplete: users genreally take pause between words and are more focused on keystrokes while typing. Debouncing makes more sense here.
+
 ## Throttling
-	- Shooting game: depending on the type of gun the player has, we want to throttle the shots fired. For example, for an automatic rifle you might be able to shoot every 1 sec, but for a sniper rifle you need to wait 10secs between two shots.
+Shooting game: depending on the type of gun the player has, we want to throttle the shots fired. For example, for an automatic rifle you might be able to shoot every 1 sec, but for a sniper rifle you need to wait 10secs between two shots.
 
 # Note
 A debounced function may starve, but a throttled function would never.
