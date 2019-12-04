@@ -1,0 +1,25 @@
+<html>
+	<body id="body" style="height:500px;width:500px;border-style:solid;border-color:black;">
+		<div id="output" style="font-size:15px;"/>
+	</body>
+	<script>
+		let body = document.getElementById('body')
+		let output = document.getElementById('output')
+		let captureMove = () => {
+			console.log('capturing')
+		}
+		let throttledCapture = function(fn, delay) {
+			let inThrottle
+			return function() {
+				let context = this, args = arguments
+				if (!inThrottle) {
+					fn.apply(context, args)
+					inThrottle = true
+					setTimeout(() => {inThrottle = false}, delay)
+				}
+			}
+		}
+		let betterCapture = throttledCapture(captureMove, 300)
+		body.addEventListener('mousemove', betterCapture)
+	</script>
+</html>
