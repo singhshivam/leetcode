@@ -1,0 +1,44 @@
+<html>
+	<title>Progress Bar</title>
+	<body class="body">
+		<div>
+			<div class="progress-container">
+				<div class="progress-bar"></div>
+			</div>
+			<div>
+				<button onClick="makeProgress(2)">Click</button>
+			</div>
+		</div>
+	</body>
+	<script>
+		function makeProgress(secs) {
+			let millisecs = secs*1000
+			let progress = 0, timerID
+			let progBar = document.querySelector(".progress-bar")
+			progBar.style.width = 0
+			timerID = setInterval(() => {
+				progress += 10
+				progBar.style.width = `${progress}%`
+				console.log(progress)
+				if (progress >= 100) {
+					clearInterval(timerID)
+				}
+			}, millisecs/10)
+		}
+	</script>
+<style>
+	.body {
+		background-color: #a2a2a2;
+	}
+	.progress-container {
+		height: 20px;
+		width: 500px;
+		background-color: white;
+	}
+	.progress-bar {
+		background-color: green;
+		height: 100%;
+		width: 0;
+	}
+</style>
+</html>
