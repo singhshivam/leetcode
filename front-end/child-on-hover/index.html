@@ -1,0 +1,30 @@
+<html>
+	<body>
+		<p>Given a picture, how would you hide/show a child picture on hovering on this parent?</p>
+		<div id="parent">
+			<div id="child">
+			</div>
+		</div>
+	</body>
+<style>
+	#parent { 
+		height: 500px;
+		width: 500px;
+		border-style: solid;
+		border-color: red;
+	}
+	#child {
+		height: 200px;
+		width: 200px;
+		border-style: solid;
+		border-color: green;
+	}
+	#parent #child {
+		visibility: hidden;
+	}
+	#parent:hover #child {
+		visibility: visible;
+	
+</style>
+</html>
+
