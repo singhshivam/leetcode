@@ -11,3 +11,10 @@ function curry(fn, ...args) {
 		return fn(...args, ..._arg);
 	}
 }
+
+// console.log(multiply(21)(0)(6)(2)(4)())
+let multiply = (a) => {
+	return (b) => {
+  	return b !== undefined ? multiply(a*b) : a
+  }
+}
